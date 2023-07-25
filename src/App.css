@@ -1,0 +1,176 @@
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #0C4640;
+  height: 70px;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.nav :hover{
+  color: black;
+}
+
+.nav--logo {
+  height: 70px;
+  border-radius: 30px;
+}
+
+.nav > a {
+  display: flex;
+  text-decoration:none;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+}
+
+.home {
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #1B9D90;
+height: 100vh;
+color: white;
+}
+
+.home--photo {
+  max-height: 600px;
+  max-width: 400px;
+  border-radius: 20px;;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1B9D90;
+  height: 100vh;
+  color: white;
+}
+
+.login--form {
+  padding-left: 150px;
+  background-color: #0C4640;
+  width: 300px;
+  height: 350px;
+  border-radius: 20px;
+}
+
+.login--fields{
+  border-radius: 5px;
+  height: 28px;
+}
+
+.login--text2 {
+  padding-left: 25px;;
+}
+
+.login--text3{
+  padding-left: 30px;
+}
+
+.login--button {
+  display: flex;
+    background: none;
+    flex-grow: 2;
+    justify-content: center;
+    height: 40px;
+    border-radius: 40px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-width: 5px;
+    margin-left: 28px;
+    background-color: black;
+    color: white;
+}
+.register {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #1B9D90;
+  height: 100vh;
+  color: white;
+  padding-right: 200px;
+}
+.register--form{
+  flex-direction: column;
+  background-color: rgba(74, 74, 74, 0.783);
+  width: auto;
+  height: 300px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.register--fields{
+  border-radius: 5px;
+  margin-left: 50px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.register--button{
+  display: flex;
+  background: none;
+  flex-grow: 2;
+  justify-content: center;
+  height: 30px;
+  border-radius: 40px;
+  align-items: center;
+  font-weight: bold;
+  font-size: 10px;
+  border-width: 3px;
+  margin-left: 63px;
+  margin-top: 15px;
+  background-color: black;
+  color: white; 
+}
+.tickets--container{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #1B9D90;
+  color: white;
+  height: 100vh;
+
+}
+
+.ticket--table{
+  display: flex;
+  flex-direction: column;
+  border-style: ridge;
+  min-width: 400px;
+}
+.table--head{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+}
+.tickets--body{
+  color: white;
+  background-color: rgb(84, 83, 83);
+  align-content: space-between;
+}
+.ticket--issue{
+  min-width: 220px;
+  max-width: 300px; 
+  min-height: 70px;
+  max-height: 90px; 
+  padding: 3px;
+}
+.tickets-button{
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  border-radius: 40px;
+  align-items: center;
+  font-weight: bold;
+  font-size: 10px;
+  border-width: 3px;
+  background-color: black;
+  color: white; 
+}
+.input--form{
+  border-width: 3px;
+}
